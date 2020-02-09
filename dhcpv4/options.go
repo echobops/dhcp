@@ -156,7 +156,7 @@ func (o Options) fromBytesCheckEnd(data []byte, checkEndOption bool) error {
 	}
 
 	// Any bytes left must be padding.
-	var pad uint8
+	// var pad uint8
 	for buf.Len() >= 1 {
 		_ = buf.Read8()
 		// pad = buf.Read8()
