@@ -158,10 +158,13 @@ func (o Options) fromBytesCheckEnd(data []byte, checkEndOption bool) error {
 	// Any bytes left must be padding.
 	var pad uint8
 	for buf.Len() >= 1 {
-		pad = buf.Read8()
-		if pad != optPad && pad != optEnd {
-			return ErrInvalidOptions
-		}
+		_ = buf.Read8()
+		// pad = buf.Read8()
+		// Some vendors put garbage in their padding. Let's not fail on crappy vendor padding
+		// when the packet is valid everywhere else.
+		// if pad != optPad && pad != optEnd {
+		// 	return ErrInvalidOptions
+		// }
 	}
 	return nil
 }
