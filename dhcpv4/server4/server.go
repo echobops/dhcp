@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/insomniacslk/dhcp/dhcpv4"
+	"github.com/echobops/dhcp/dhcpv4"
 )
 
 /*
@@ -34,8 +34,8 @@ import (
 	"log"
 	"net"
 
-	"github.com/insomniacslk/dhcp/dhcpv4"
-	"github.com/insomniacslk/dhcp/dhcpv4/server4"
+	"github.com/echobops/dhcp/dhcpv4"
+	"github.com/echobops/dhcp/dhcpv4/server4"
 )
 
 func handler(conn net.PacketConn, peer net.Addr, m *dhcpv4.DHCPv4) {

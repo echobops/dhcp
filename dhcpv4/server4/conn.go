@@ -6,7 +6,7 @@ import (
 	"net"
 	"os"
 
-	"github.com/insomniacslk/dhcp/dhcpv4"
+	"github.com/echobops/dhcp/dhcpv4"
 	"golang.org/x/sys/unix"
 )
 

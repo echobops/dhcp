@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/insomniacslk/dhcp/dhcpv4"
-	"github.com/insomniacslk/dhcp/dhcpv4/nclient4"
-	"github.com/insomniacslk/dhcp/interfaces"
+	"github.com/echobops/dhcp/dhcpv4"
+	"github.com/echobops/dhcp/dhcpv4/nclient4"
+	"github.com/echobops/dhcp/interfaces"
 	"github.com/stretchr/testify/require"
 )
 

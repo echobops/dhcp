@@ -6,7 +6,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/insomniacslk/dhcp/iana"
+	"github.com/echobops/dhcp/iana"
 	"github.com/u-root/u-root/pkg/rand"
 	"github.com/u-root/u-root/pkg/uio"
 )

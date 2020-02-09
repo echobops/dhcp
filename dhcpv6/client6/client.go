@@ -6,7 +6,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/insomniacslk/dhcp/dhcpv6"
+	"github.com/echobops/dhcp/dhcpv6"
 )
 
 // Client constants
